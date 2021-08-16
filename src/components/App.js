@@ -2,8 +2,12 @@ import React from 'react';
 
 const App = () => {
   return (
-    <div>
-      App
+    <div className="container">
+      <div className="row">
+        <div className="col">
+          column
+        </div>
+      </div>
     </div>
   );
 };
