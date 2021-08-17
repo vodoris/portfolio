@@ -10,11 +10,11 @@ const WelcomeBlurb = () => {
 
         <h1 className="display-1">I'm Matt.</h1>
         <p className="lead">A proficient Software Developer from
-          Birmingham, AL with years of experience in modern day web development methodologies and
+          Birmingham, Alabama with years of experience in modern day web development methodologies and
           frameworks.</p>
         <hr className="my-4" />
         <p className="lead">
-          Below, you will find various projects. Each example demonstrates the quality of the deliverables I can offer.
+          Choose a project below. Each example demonstrates the quality of the deliverables I can offer.
           If you have any questions, please reach out to me here.
         </p>
         <div className="text-center">

@@ -9,7 +9,7 @@ const App = () => {
   const articlesData = [
     {
       id: 1,
-      title: 'Welcome Test',
+      title: 'Welcome',
       component: <WelcomeBlurb />
     },
     {
