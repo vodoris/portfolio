@@ -42,6 +42,7 @@ body {
 /* Tiles */
 .tile {
   position: relative;
+  overflow: hidden;
   height: 250px;
   width: 100%;
   border: 1px solid white;
@@ -51,6 +52,38 @@ body {
   background-position: center;
   -webkit-transition: all 0.3s ease-in-out;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.8);
+}
+a.project-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ribbon {
+  position: absolute;
+  top:0;
+  right:0;
+  margin: 0;
+  padding: 0;
+  background: #0d6efd;
+  color:white;
+  padding:1rem 0;
+  transform: translateX(30%) translateY(0%) rotate(45deg);
+  transform-origin: top left;
+}
+.ribbon:before, .ribbon:after {
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  margin: 0 -1px; 
+  background: #0d6efd;
+}
+.ribbon:before {
+  right:100%;
+}
+.ribbon:after {
+  left:100%;
 }
 
 /* Contact */
