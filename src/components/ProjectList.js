@@ -3,8 +3,8 @@ import ProjectData from '../utils/projects';
 import ProjectCard from './ProjectCard';
 
 const ProjectList = () => {
-  const projects = ProjectData.map(project => {
-    return <ProjectCard key={project.id} project={project} />
+  const projects = ProjectData.map((project, i) => {
+    return <ProjectCard key={`project-${i}`} project={project} />
   })
 
   return (
