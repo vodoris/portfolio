@@ -13,19 +13,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 780px) {
-  .header-left {
-    float: left;
-  }
-  .header-right {
-    float: right;
-  }
-}
-@media (max-width: 768px) {
-  .projects-article, .contact-article {
-    height: 100% !important;
-  }
-}
 
 /* Header */
 .header-sticky {
@@ -38,6 +25,17 @@ body {
 }
 .nav-header .active {
   color: #fff;
+}
+
+/* Welcome */
+.welcome-cta {
+  margin-top:3rem;
+  -webkit-transition: margin 0.3s ease-in-out;
+}
+.welcome-cta:hover {
+  margin-top: 4rem;
+  -webkit-transition: margin 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 /* Tiles */
@@ -53,8 +51,29 @@ body {
   -webkit-transition: all 0.3s ease-in-out;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.7);
 }
-.tile:hover {
-  -webkit-transform: scale(1.1); 
-  transform: scale(1.1);
-  -webkit-transition: all 0.3s ease-in-out;
+
+/* Desktop Only */
+@media (min-width: 780px) {
+  .header-left {
+    float: left;
+  }
+  .header-right {
+    float: right;
+  }
+  .tile:hover {
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+    -webkit-transition: all 0.3s ease-in-out;
+  }
+}
+
+/* Mobile Only */
+@media (max-width: 768px) {
+  .projects-article, .contact-article {
+    height: 100% !important;
+    padding-top: 7rem;
+  }
+  .welcome-cta {
+    margin-top:1rem;
+  }
 }

@@ -1,14 +1,28 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
-const Header = () => {
+const Header = ({ links }) => {
+  const navLinks = links.map(link => {
+    return (
+      <Link
+        key={link.id}
+        activeClass="active"
+        className={`${link.title.toLowerCase()} nav-link`}
+        to={link.title.toLowerCase()}
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        {link.title}
+      </Link>
+    );
+  })
   return (
     <header className="header-sticky w-100 text-center py-2 text-center">
       <div className="nav-header mx-auto">
         <h3 className="header-left">Matt Gilbert</h3>
         <nav className="header-right nav justify-content-center">
-          <a className="nav-link active" href="#">Welcome</a>
-          <a className="nav-link" href="#">Projects</a>
-          <a className="nav-link" href="#">Contact</a>
+          {navLinks}
         </nav>
       </div>
     </header>
