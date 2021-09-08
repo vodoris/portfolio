@@ -14,7 +14,8 @@ const projectsData = [
   {
     title: 'New Year Countdown',
     description: 'A simple single page application that counts down to the new year!',
-    image: ''
+    image: 'new-year',
+    link: 'https://vodoris-countdown-timer.netlify.app/'
   },
   {
     title: 'Dashboard',
