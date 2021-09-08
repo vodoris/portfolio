@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e2265b0e.chunk.css",
-    "main.js": "/portfolio/static/js/main.0d0da6e1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0d0da6e1.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.cbafb5c6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cbafb5c6.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.bcd5af5a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.bcd5af5a.js.map",
     "static/css/2.983f79de.chunk.css": "/portfolio/static/css/2.983f79de.chunk.css",
@@ -15,13 +15,14 @@
     "static/media/brad-starkey-pVyaUGCuUU4-unsplash.jpg": "/portfolio/static/media/brad-starkey-pVyaUGCuUU4-unsplash.6d57fd52.jpg",
     "static/media/desktop-transitions.png": "/portfolio/static/media/desktop-transitions.aef927ac.png",
     "static/media/dnd-party-search-background.png": "/portfolio/static/media/dnd-party-search-background.639329a2.png",
-    "static/media/ilya-pavlov-OqtafYT5kTw-unsplash.jpg": "/portfolio/static/media/ilya-pavlov-OqtafYT5kTw-unsplash.1e666016.jpg"
+    "static/media/ilya-pavlov-OqtafYT5kTw-unsplash.jpg": "/portfolio/static/media/ilya-pavlov-OqtafYT5kTw-unsplash.1e666016.jpg",
+    "static/media/new-year.jpg": "/portfolio/static/media/new-year.28e42ab8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bcd5af5a.js",
     "static/css/2.983f79de.chunk.css",
     "static/js/2.69477c83.chunk.js",
     "static/css/main.e2265b0e.chunk.css",
-    "static/js/main.0d0da6e1.chunk.js"
+    "static/js/main.cbafb5c6.chunk.js"
   ]
 }
